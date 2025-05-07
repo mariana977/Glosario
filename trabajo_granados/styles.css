@@ -1,0 +1,58 @@
+/* General styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Centered title */
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+/* Section styling */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Links styling */
+a {
+    text-decoration: none;
+    color: #d29bfd;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #d29bfd;
+}
+
+/* Paragraph styling */
+p {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 4px solid #d29bfd;
+    border-radius: 4px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: d29bfd;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
